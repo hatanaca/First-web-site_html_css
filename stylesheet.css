@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body{
+	box-sizing: border-box;
+	background-image: url("fundo.jpg");
+	background-size: 100% 
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+}
+.cao{
+	position: relative;
+	left: -20px;
+	top: auto;
+}
+
+
+img{width: 250px;
+	height: 300px;
+	background-image: url("fundo2.jpg");
+	border-radius:80%;
+	border:solid 10px #E6C15C;
+	border-style: groove;
+	grid-gap: 50px;
+
+}
+.titulo {
+	position: absolute;
+	left: 320px;
+	top: -80px;
+	text-shadow: 2px 2px black;
+	 margin-right:auto;
+	 font-size: 80px;
+	 color: white;
+	 font-family: 'Pangolin', cursive;
+}
+.titulo>h5{
+	font: 45px;
+
+}
+section>h1{
+	font-size: 22px;
+	font-family: 'Pangolin', cursive ;
+	border:solid 10px #E6C15C;
+	text-align: center;
+	background-color: white;
+	border-style: outset;
+}
+.Subtitle>h2{
+	font-size: 30px;
+	margin: 10px;
+}	
+.Subtitle{
+	position: absolute;
+	left: 320px;
+	top: 80px;
+	text-shadow: 2px 2px black;
+	font-family: 'Pangolin', cursive;
+	color: white
+}
+section{
+	background-color: #34B58E;
+	border:solid 10px #E6C15C;
+	width: 80%;
+	position: relative;
+	left: 300px;
+	top: -210px;
+	padding: 15px;
+}
+
+section>p{
+	color: white;
+    font-family: 'Pangolin', cursive ;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 2px
+}
+nav{
+	background-image: url("fundo2.jpg");
+	text-align: center;
+	border:solid 10px #E6C15C;
+	border-style: groove;
+	margin-bottom: 100px;
+	margin-left:-300px;
+	float: left;
+	height: 200px
+	width:100px;
+
+}
+ul a{border:solid 10px #E6C15C;
+	border-style: groove;
+	background-color: #50B58E;
+	display: block;
+    text-decoration: none;
+    margin: 30px;
+    padding:10px;
+    color: white;
+    font-family: 'Pangolin', cursive ;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 2px
+
+}
+ul{	
+    margin: 0;
+    padding: 0;
+    
+}
